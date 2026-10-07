@@ -1,0 +1,28 @@
+<svg 
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 64 64">
+
+<path 
+d="M12 40h40v12H12z"
+fill="none"
+stroke="#5c4033"
+stroke-width="3"/>
+
+<path 
+d="M18 40c0-12 28-12 28 0"
+fill="none"
+stroke="#5c4033"
+stroke-width="3"/>
+
+<path 
+d="M32 12v10"
+stroke="#5c4033"
+stroke-width="3"/>
+
+<circle 
+cx="32"
+cy="10"
+r="3"
+fill="#5c4033"/>
+
+</svg>

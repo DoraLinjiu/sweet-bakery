@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+
+<head>
+
+
+<meta charset="UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>
+甜屿烘焙 | 手作甜品店
+</title>
+
+
+<meta 
+name="description"
+content="甜屿烘焙专注手作蛋糕、甜品制作，每日提供新鲜甜蜜体验。">
+
+
+</head>
+
+
+<body>
+
+
+
+<nav class="nav" id="top">
+
+
+    <div class="logo">
+        甜屿烘焙
+    </div>
+
+
+    <!-- 手机菜单按钮 -->
+    <div class="menu-btn" onclick="openMenu()">
+
+        ☰
+
+    </div>
+
+
+
+    <div class="links" id="navLinks">
+
+
+        <a href="#top">首页</a>
+
+
+        <a href="#menu">甜品</a>
+
+
+        <a href="#about">关于我们</a>
+
+
+        <a href="#contact">联系</a>
+
+
+    </div>
+
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h2>
+甜品 · 烘焙 · 每日手作
+</h2>
+
+<h1>
+甜屿烘焙
+</h1>
+
+<p>
+用心制作每一份甜蜜
+</p>
+
+<a href="#contact">
+
+<button>
+立即咨询
+</button>
+
+</a>
+
+</div>
+
+
+<div class="hero-image">
+
+<img 
+src="images/cake.jpg"
+alt="甜屿烘焙蛋糕展示">
+</div>
+
+
+</section>
+
+
+<section class="menu" id="menu">
+
+<div class="card">
+
+<img 
+src="images/草莓蛋糕.jpg"
+alt="甜屿烘焙草莓蛋糕">
+
+<div class="tag">
+⭐ 热门
+</div>
+
+<h3>草莓蛋糕</h3>
+
+<p class="desc">
+新鲜草莓制作<br>
+动物奶油<br>
+低糖配方
+</p>
+
+<p class="price">
+¥28
+</p>
+
+<a href="#contact">
+<button>立即咨询</button>
+</a>
+
+</div>
+
+<div class="card">
+<img 
+src="images/抹茶蛋糕.jpg"
+alt="甜屿烘焙抹茶蛋糕">
+
+<div class="tag">
+新品
+</div>
+
+<h3>抹茶蛋糕</h3>
+
+<p class="desc">
+精选抹茶粉<br>
+清新口感<br>
+每日现做
+</p>
+
+<p class="price">
+¥25
+</p>
+
+<a href="#contact">
+<button>立即咨询</button>
+</a>
+</div>
+
+
+<div class="card">
+<img 
+src="images/芝士蛋糕.jpg"
+alt="甜屿烘焙芝士蛋糕">
+
+<div class="tag">
+经典
+</div>
+
+<h3>芝士蛋糕</h3>
+
+<p class="desc">
+浓郁芝士<br>
+入口细腻<br>
+经典口味
+</p>
+
+<p class="price">
+¥30
+</p>
+
+<a href="#contact">
+<button>立即咨询</button>
+</a>
+
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<h2>关于我们</h2>
+
+<p>
+甜屿烘焙是一家专注手作甜品的小店。
+每天制作新鲜蛋糕，为每位顾客带来甜蜜体验。
+</p>
+
+
+
+</section>
+
+<section class="features">
+
+<h2>我们的优势</h2>
+
+
+<div class="feature-box">
+
+
+<div class="feature">
+
+<img 
+src="icons/cake.svg"
+alt="手工制作">
+
+<h3>手工制作</h3>
+
+<p>
+每日新鲜制作
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<img 
+src="icons/leaf.svg"
+alt="精选原料">
+
+<h3>精选原料</h3>
+
+<p>
+选择优质食材
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<img 
+src="icons/truck.svg"
+alt="新鲜配送">
+
+<h3>新鲜配送</h3>
+
+<p>
+及时送达顾客手中
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>联系我们</h2>
+
+<p>
+微信：sweet_shop123
+</p>
+
+<p>
+营业时间：10:00 - 20:00
+</p>
+
+</section>
+
+<footer class="footer">
+
+<h3>甜屿烘焙</h3>
+
+<p>
+用心制作每一份甜蜜
+</p>
+
+
+<p class="copyright">
+© 2026 甜屿烘焙 All Rights Reserved
+</p>
+
+</footer>
+
+</body>
+
+
+</html>
+
+<style>
+
+/* =====================
+   全局基础 Global
+===================== */
+
+
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+
+    background:#fff8f3;
+
+    text-align:center;
+
+    font-family:Arial,sans-serif;
+
+    margin:0;
+
+}
+
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+h1{
+
+    color:#5c4033;
+
+    font-size:42px;
+
+}
+
+
+h2{
+
+    color:#a98274;
+
+    font-size:18px;
+
+}
+
+
+p{
+
+    color:#80655a;
+
+    font-size:20px;
+
+}
+
+
+
+/* =====================
+   导航 Navbar
+===================== */
+
+
+.nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 60px;
+
+    position:sticky;
+
+    top:0;
+
+    background:#fff8f3;
+
+    z-index:100;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.05);
+
+}
+
+
+
+.logo{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#5c4033;
+
+}
+
+
+
+.links a{
+
+    margin-left:25px;
+
+    text-decoration:none;
+
+    color:#80655a;
+
+    transition:0.3s;
+
+}
+
+.hero a{
+
+text-decoration:none;
+
+}
+
+.links a:hover{
+
+    color:#5c4033;
+
+}
+
+/* =====================
+   手机菜单按钮
+===================== */
+
+
+.menu-btn{
+
+    display:none;
+
+    font-size:30px;
+
+    cursor:pointer;
+
+    color:#5c4033;
+
+}
+
+/* =====================
+   首页 Hero
+===================== */
+
+
+.hero{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:80px;
+
+    padding:80px 40px;
+
+}
+
+
+
+.hero-text{
+
+    max-width:400px;
+
+}
+
+
+
+.hero-image img{
+
+    width:450px;
+
+    height:350px;
+
+    object-fit:cover;
+
+    border-radius:40px;
+
+    animation:float 4s infinite ease-in-out;
+
+}
+
+
+
+
+/* =====================
+   按钮 Button
+===================== */
+
+
+button{
+
+
+    background:#5c4033;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 30px;
+
+    border-radius:30px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* =====================
+   商品 Menu
+===================== */
+
+
+.menu{
+
+    margin-top:40px;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    width:220px;
+
+    padding:20px;
+
+    margin:15px;
+
+    border-radius:25px;
+
+    display:inline-block;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,0.12);
+
+}
+
+
+
+.card img{
+
+width:100%;
+
+height:170px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+transition:0.3s;
+
+}
+
+
+.card:hover img{
+
+transform:scale(1.05);
+
+}
+
+
+
+.desc{
+
+    font-size:15px;
+
+    line-height:2;
+
+    color:#a98274;
+
+}
+
+
+
+/* =====================
+   优势 Features
+===================== */
+
+
+.features{
+
+    margin-top:40px;
+
+    padding:40px;
+
+}
+
+
+
+.feature-box{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+}
+
+
+
+.feature{
+
+    background:white;
+
+    width:200px;
+
+    padding:25px;
+
+    border-radius:25px;
+
+    transition:0.3s;
+
+}
+
+
+
+.feature:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 15px 30px rgba(0,0,0,0.08);
+
+}
+
+
+
+.feature img{
+
+    width:50px;
+
+    height:50px;
+
+}
+
+
+
+/* =====================
+   关于 联系 About Contact
+===================== */
+
+
+.about,
+.contact{
+
+
+    margin:30px;
+
+    padding:30px;
+
+    background:white;
+
+    border-radius:30px;
+
+}
+
+
+
+/* =====================
+   Footer
+===================== */
+
+
+.footer{
+
+    margin-top:30px;
+
+    padding:40px;
+
+    background:#5c4033;
+
+}
+
+
+
+.footer h3,
+.footer p{
+
+    color:white;
+
+}
+
+
+
+.copyright{
+
+    opacity:0.7;
+
+}
+
+
+
+/* =====================
+   动画 Animation
+===================== */
+
+
+@keyframes float{
+
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+/* =====================
+   平板和手机适配
+===================== */
+
+
+@media(max-width:900px){
+
+
+.nav{
+
+flex-direction:row;
+
+justify-content:space-between;
+
+padding:20px;
+
+}
+
+
+/* 手机导航 */
+
+
+.menu-btn{
+
+display:block;
+
+font-size:32px;
+
+cursor:pointer;
+
+color:#5c4033;
+
+}
+
+
+
+.links{
+
+
+display:none;
+
+
+flex-direction:column;
+
+
+background:white;
+
+
+position:absolute;
+
+
+top:75px;
+
+
+left:0;
+
+
+width:100%;
+
+
+padding:20px;
+
+
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+
+}
+
+
+
+.links a{
+
+
+margin:15px;
+
+
+}
+
+
+
+.links.active{
+
+
+display:flex;
+
+
+}
+
+.links a{
+
+margin:8px;
+
+}
+
+
+
+.hero{
+
+flex-direction:column;
+
+padding:50px 20px;
+
+gap:40px;
+
+}
+
+
+
+.hero-text{
+
+width:100%;
+
+}
+
+
+
+.hero-image{
+
+width:100%;
+
+}
+
+
+
+.hero-image img{
+
+
+width:90%;
+
+max-width:450px;
+
+height:auto;
+
+
+}
+
+
+
+.card{
+
+
+width:80%;
+
+
+}
+
+
+
+.feature-box{
+
+
+flex-direction:column;
+
+align-items:center;
+
+
+}
+
+
+
+.feature{
+
+
+width:80%;
+
+
+}
+
+
+
+h1{
+
+font-size:32px;
+
+}
+
+
+
+}
+
+/* =====================
+   商品升级
+===================== */
+
+
+.tag{
+
+display:inline-block;
+
+background:#f3dfd2;
+
+color:#80655a;
+
+padding:5px 15px;
+
+border-radius:20px;
+
+font-size:14px;
+
+margin:15px 0;
+
+}
+
+
+
+.price{
+
+font-size:26px;
+
+font-weight:bold;
+
+color:#5c4033;
+
+}
+
+
+
+</style>
+
+<script>
+
+
+function openMenu(){
+
+
+    let menu=document.getElementById("navLinks");
+
+
+    menu.classList.toggle("active");
+
+
+}
+
+
+</script>

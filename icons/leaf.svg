@@ -1,0 +1,16 @@
+<svg 
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 64 64">
+
+<path
+d="M50 10C25 12 12 25 14 50C39 48 52 35 50 10Z"
+fill="none"
+stroke="#5c4033"
+stroke-width="3"/>
+
+<path
+d="M18 46L45 18"
+stroke="#5c4033"
+stroke-width="3"/>
+
+</svg>
